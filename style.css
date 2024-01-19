@@ -1,19 +1,23 @@
-.my_icons_color {
+.my_icons_nav_color {
     color: #5b5858;
+}
+
+.my_icons_color {
+    color: white;
 }
 
 .my_bell_color {
     color: #ff8f00;
 }
 
-/*TEST*/
-.container {
-    border: 1px solid black;
-}
-
 .my_img_size {
     width: 46px;
     height: 46px;
+}
+
+.my_aside_bg {
+    background-image: url(img/sidebar-bg.png);
+    background-color: #051e34;
 }
 
 @media screen and (max-width: 992px){
@@ -27,3 +31,9 @@
         width: 170px;
     }
 }
+
+/*TEST*/
+.container {
+    border: 1px solid black;
+}
+

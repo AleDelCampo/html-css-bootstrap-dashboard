@@ -25,9 +25,9 @@
                 <input class="m-0 me-2 form-control border-0 bg-body-secondary" type="search" placeholder="     Prova a cercare: Lezioni di Laravel." aria-label="Search">
             </form>
             <div class="d-flex gap-4 align-self-center">
-                <i class="fa-solid fa-list ms-3 my_icons_color d-none d-lg-block"></i>
-                <i class="fa-solid fa-circle-question my_icons_color d-none d-lg-block "></i>
-                <i class="fa-solid fa-ellipsis-vertical my_icons_color d-none d-lg-block "></i>
+                <i class="fa-solid fa-list ms-3 my_icons_nav_color d-none d-lg-block"></i>
+                <i class="fa-solid fa-circle-question my_icons_nav_color d-none d-lg-block "></i>
+                <i class="fa-solid fa-ellipsis-vertical my_icons_nav_color d-none d-lg-block "></i>
                 <i class="fa-solid fa-bell my_bell_color"></i>
             </div>
     
@@ -36,15 +36,32 @@
 
 
     <div class="d-flex ">
-        <aside class="vh-100 bg-black my_aside_size d-flex">
-            <div class="">
-                ciao
+        <aside class="vh-100 my_aside_bg my_aside_size d-flex">
+            <div class="container p-4 d-flex flex-column align-items-center justify-content-between ">
+                <div class="d-flex flex-column gap-2">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-house my_icons_color"></i>
+                        <span class="text-white ms-3 d-none d-lg-block">Home</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-chart-simple my_icons_color"></i>
+                        <span class="text-white ms-3 d-none d-lg-block">Stats</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-signal my_icons_color"></i>
+                        <span class="text-white ms-3 d-none d-lg-block">Signals</span>
+                    </div>
+                </div>
+                <div class="d-flex gap-3 align-items-center">
+                    <i class="fa-solid fa-gear my_icons_color"></i>
+                    <span class="text-white d-none d-lg-block">Admin</span>
+                </div>
             </div>
         </aside>
 
-        <main class="vw-100 bg-danger d-flex">
+        <main class="vw-100 d-flex">
             <div>
-                ciao
+                
             </div>
         </main>
     </div>
