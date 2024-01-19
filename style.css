@@ -1,4 +1,29 @@
+.my_icons_color {
+    color: #5b5858;
+}
+
+.my_bell_color {
+    color: #ff8f00;
+}
+
 /*TEST*/
 .container {
     border: 1px solid black;
+}
+
+.my_img_size {
+    width: 46px;
+    height: 46px;
+}
+
+@media screen and (max-width: 992px){
+    .my_aside_size {
+        width: 60px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .my_aside_size {
+        width: 170px;
+    }
 }

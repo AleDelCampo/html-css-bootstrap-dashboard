@@ -15,20 +15,39 @@
 
 <body>
     <nav class="navbar bg-body-tertiary flex-nowrap">
-  <div class="container-fluid justify-content-between bg-white align-items-stretch">
-    <a class="navbar-brand"><img src="img/logo.svg" alt="Logo"></a>
-    <form class="d-flex w-100" role="search">
-      <input class="form-control container  me-2 border-0 bg-body-secondary" type="search" placeholder="Search" aria-label="Search">
-    </form>
-    <div class="align-self-center">
-        ICONS
+        <div class="container-fluid bg-white align-items-stretch">
+            <a class="navbar-brand d-none d-lg-block"><img class="d-none d-lg-block  align-self-center" src="img/logo.svg" alt="Logo"></a>
+            <a class=""><img class="d-lg-none my_img_size me-2" src="img/mobile-logo.png" alt="Logo"></a>
+            <form class="d-flex w-100 p-1 p-lg-0 " role="search">
+                <div class="position-absolute d-flex align-self-center p-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input class="m-0 me-2 form-control border-0 bg-body-secondary" type="search" placeholder="     Prova a cercare: Lezioni di Laravel." aria-label="Search">
+            </form>
+            <div class="d-flex gap-4 align-self-center">
+                <i class="fa-solid fa-list ms-3 my_icons_color d-none d-lg-block"></i>
+                <i class="fa-solid fa-circle-question my_icons_color d-none d-lg-block "></i>
+                <i class="fa-solid fa-ellipsis-vertical my_icons_color d-none d-lg-block "></i>
+                <i class="fa-solid fa-bell my_bell_color"></i>
+            </div>
+    
+        </div>
+    </nav>
+
+
+    <div class="d-flex ">
+        <aside class="vh-100 bg-black my_aside_size d-flex">
+            <div class="">
+                ciao
+            </div>
+        </aside>
+
+        <main class="vw-100 bg-danger d-flex">
+            <div>
+                ciao
+            </div>
+        </main>
     </div>
-  </div>
-</nav>
-
-
-
-
 
 
 
