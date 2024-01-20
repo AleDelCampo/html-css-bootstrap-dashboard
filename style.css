@@ -20,6 +20,11 @@
     background-color: #051e34;
 }
 
+.my_breadcrumbs {
+    background-color: #165bba;
+}
+
+
 @media screen and (max-width: 992px){
     .my_aside_size {
         width: 60px;
