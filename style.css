@@ -24,14 +24,31 @@
     background-color: #165bba;
 }
 
+.card_box {
+    width: calc(100% - 32px);
+}
+
+main::-webkit-scrollbar {
+    display: none;
+}
 
 @media screen and (max-width: 992px){
+
+    .my_section_size {
+        height: calc(100vh - 62px);
+    }
+
     .my_aside_size {
         width: 60px;
     }
 }
 
 @media screen and (min-width: 992px){
+
+    .my_section_size {
+        height: calc(100vh - 54px);
+    }
+
     .my_aside_size {
         width: 170px;
     }
