@@ -28,6 +28,19 @@
     width: calc(100% - 32px);
 }
 
+.my_img {
+    width: 30px;
+    height: 30px;
+}
+
+.my_table_icons {
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    border-radius: 20%;
+    padding: 8px;
+    margin-right: 8px;
+}
+
 main::-webkit-scrollbar {
     display: none;
 }
