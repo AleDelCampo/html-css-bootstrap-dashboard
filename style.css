@@ -24,7 +24,7 @@
     background-color: #165bba;
 }
 
-.card_box {
+.card-box {
     width: calc(100% - 32px);
 }
 
@@ -37,6 +37,13 @@ main::-webkit-scrollbar {
         flex-direction: column;
     }
     
+    .my_card_box {
+        width: calc(100% - 10px);
+    }
+
+    .my_low_card {
+        width: calc(100% + 22px);
+    }    
 }
 
 @media screen and (max-width: 992px){
