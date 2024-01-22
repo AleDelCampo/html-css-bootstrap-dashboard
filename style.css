@@ -44,6 +44,27 @@ main::-webkit-scrollbar {
     .my_low_card {
         width: calc(100% + 22px);
     }    
+
+    .my_text {
+        text-wrap: nowrap;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .breadcrumbs {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1265px){
+
+    .my_breadidea {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 992px){
@@ -56,9 +77,9 @@ main::-webkit-scrollbar {
         width: 60px;
     }
     
-        .my_padding {
-            padding-right: 20px;
-        }
+    .my_padding {
+        padding-right: 20px;
+    }
     
 }
 
@@ -73,10 +94,12 @@ main::-webkit-scrollbar {
     }
 
     .my_padding {
-        padding-right: 90px;
+        padding-right: 70px;
     }
 
 }
+
+
 
 /*TEST*/
 .container {
