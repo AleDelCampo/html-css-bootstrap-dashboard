@@ -38,8 +38,27 @@
     border: 1px solid #6c757d;
     border-radius: 20%;
     padding: 8px;
-    margin-right: 8px;
 }
+
+.my_done {
+    background-color: #198754;
+    color: white;
+    border-radius: 20px;
+}
+
+.my_process {
+    background-color: #ffc107;
+    color: white;
+    border-radius: 20px;
+}
+
+.my_fail {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 20px;    
+}
+
+
 
 main::-webkit-scrollbar {
     display: none;
@@ -62,6 +81,9 @@ main::-webkit-scrollbar {
         text-wrap: nowrap;
     }
 
+    .my_none {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1200px){
