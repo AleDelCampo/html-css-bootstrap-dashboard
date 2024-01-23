@@ -134,34 +134,75 @@
                         <div class="modal-dialog m-0 modal-fullscreen-lg-down position-absolute top-0 end-0">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Inserisci un nuovo studente</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <form class="">
+                                    <form class="vh-100">
                                         <div class="mb-3 d-flex flex-nowrap gap-2 ">
-                                        <div>
-                                            <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
+                                            <div>
+                                                <label for="recipient-name" class="col-form-label">Nome:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
                                             
-                                        <div>
-                                            <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
+                                            <div>
+                                                <label for="recipient-name" class="col-form-label">Cognome:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
                                         </div>
 
-                                        <div class="mb-3">
-                                            <label for="message-text" class="col-form-label">Message:</label>
-                                            <textarea class="form-control" id="message-text"></textarea>
+                                        <div class="mb-3 d-flex flex-nowrap gap-2 ">
+                                            <div>
+                                                <label for="recipient-name" class="col-form-label">E-Mail:</label>
+                                                <div class="input-group-text position-absolute" id="btnGroupAddon">@</div>
+                                                <input type="text" class="form-control position-relative bg-transparent" id="recipient-name">
+                                            </div>
+                                                
+                                            <div>
+                                                <label for="recipient-name" class="col-form-label">Password:</label>
+                                                <input type="password" class="form-control my_form" id="pass" aria-describedby="emailHelp">
+                                            </div>
                                         </div>
+
+                                        <div>
+                                            <label for="recipient-name" class="col-form-label">Indirizzo:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        
+                                        <div class="mb-3 d-flex flex-nowrap gap-2 ">
+                                            <div>
+                                                <label for="recipient-name" class="col-form-label">Città:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            
+                                            <div>
+                                                <label for="recipient-name" class="col-form-label">Stato:</label>
+                                                <input type="text" class="form-select" placeholder="Scegli...." id="recipient-name">
+                                            </div>
+
+                                            <div>
+                                                <label for="recipient-name" class="col-form-label">CAP:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <label for="recipient-name" class="col-form-label">Foto:</label>
+                                            <div class="input-group-text position-absolute" id="btnGroupAddon">Scegli File</div>
+                                            <input type="text" class="form-control position-relative bg-transparent" id="recipient-name" placeholder="                    Nessun file selezionato">
+                                        </div>
+                                        <div class="form-check mt-3">
+                                            <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+                                            <label class="form-check-label">Seleziona qui per proseguire.</label>
+                                        </div>
+                                        <div class="mt-3">
+                                            <button type="button" class="btn btn-primary"
+                                            data-bs-dismiss="modal">Salva</button>
+                                        <button type="button" class="btn btn-warning">Svuota</button>
+                                        </div>
+                                        
                                     </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Send message</button>
                                 </div>
                             </div>
                         </div>
@@ -170,6 +211,8 @@
 
 
             </div>
+
+            
 
             <div class="pt-4 ps-2 d-flex col-2 w-100 gap-4 flex-column flex-md-row ">
 
