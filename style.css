@@ -131,11 +131,3 @@ main::-webkit-scrollbar {
     }
 
 }
-
-
-
-/*TEST*/
-.container {
-    border: 1px solid black;
-}
-
