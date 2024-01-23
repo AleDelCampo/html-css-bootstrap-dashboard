@@ -58,6 +58,14 @@
     border-radius: 20px;    
 }
 
+.my_aside_icons:hover {
+    background-color: #828f9a;
+}
+
+.ciao {
+    height: 100px;
+}
+
 main::-webkit-scrollbar {
     display: none;
 }
