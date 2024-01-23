@@ -58,8 +58,6 @@
     border-radius: 20px;    
 }
 
-
-
 main::-webkit-scrollbar {
     display: none;
 }
